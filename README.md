@@ -64,3 +64,14 @@ begin
 return stack[top]
 end procedure
 ```
+### IsEmpty
+Returns true if the stack is empty else false
+```
+begin
+if top < 1
+return true
+else
+return false
+end procedure
+```
+
