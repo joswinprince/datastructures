@@ -43,3 +43,24 @@ end else
 end procedure
 ```
 
+### Pop
+Removes an item from the stack, if the stack is empty it is said to be underflow
+
+```
+Begin
+if stack is empty
+return
+else
+print stack[top]
+decrement top
+return value
+end else
+end procedure
+```
+### Top
+Returns the top element of the stack
+```
+begin
+return stack[top]
+end procedure
+```
