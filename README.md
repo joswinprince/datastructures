@@ -27,5 +27,19 @@ Basic operations on stack
 3. **top()** - To Return the top element of the stack.
 4. **isEmpty()** - To return true is stack is empty else false.
 5. **size()** - Returns the size of stack
-6. 
+
+### Push
+Adds an item in to the stack, if the stack is full it is said to be overflow
+
+```
+Begin
+if stack is full
+return 
+end if
+else
+increment top
+stack[top] assign value
+end else
+end procedure
+```
 
